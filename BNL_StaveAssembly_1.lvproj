@@ -138,6 +138,7 @@
 			<Item Name="GetImageCentre (SubVI).vi" Type="VI" URL="../CameraControl/GetImageCentre (SubVI).vi"/>
 			<Item Name="DrawImageCentre (SubVI).vi" Type="VI" URL="../CameraControl/DrawImageCentre (SubVI).vi"/>
 			<Item Name="DrawAxesOnImage (SubVI).vi" Type="VI" URL="../CameraControl/DrawAxesOnImage (SubVI).vi"/>
+			<Item Name="2DFilter (SubVI).vi" Type="VI" URL="../CameraControl/2DFilter (SubVI).vi"/>
 		</Item>
 		<Item Name="Utils" Type="Folder">
 			<Item Name="analyzeToolingPins.vi" Type="VI" URL="../Utils/analyzeToolingPins.vi"/>
@@ -226,16 +227,7 @@
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
-				<Item Name="Straight Edge Process.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Straight Edge Process.ctl"/>
-				<Item Name="Straight Edge Options.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Straight Edge Options.ctl"/>
 				<Item Name="IMAQ Coordinate System" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Coordinate System"/>
-				<Item Name="IVA Store Straight Edge3 Results.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Store Straight Edge3 Results.vi"/>
-				<Item Name="IVA Store Caliper Results.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Store Caliper Results.vi"/>
-				<Item Name="IVA Caliper - Strings.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Caliper - Strings.vi"/>
-				<Item Name="IVA Unit2String.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Unit2String.vi"/>
-				<Item Name="Grid Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Grid Descriptor"/>
-				<Item Name="IVA Caliper Algorithm.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Caliper Algorithm.vi"/>
-				<Item Name="IVA Caliper Sub-VI 3.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Caliper Sub-VI 3.vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="Calculate Frames per Second.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Calculate Frames per Second.vi"/>
 				<Item Name="IVA Store Circular Edge2 Results.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Store Circular Edge2 Results.vi"/>
@@ -254,9 +246,16 @@
 				<Item Name="Distortion Model Types.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Calibration.llb/Distortion Model Types.ctl"/>
 				<Item Name="Correction Learn Setup.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Calibration.llb/Correction Learn Setup.ctl"/>
 				<Item Name="Error Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Calibration.llb/Error Statistics.ctl"/>
+				<Item Name="IVA Store Caliper Results.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Store Caliper Results.vi"/>
+				<Item Name="IVA Unit2String.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Unit2String.vi"/>
+				<Item Name="Grid Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Grid Descriptor"/>
+				<Item Name="IVA Caliper - Strings.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Caliper - Strings.vi"/>
+				<Item Name="IVA Caliper Algorithm.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Caliper Algorithm.vi"/>
+				<Item Name="IVA Caliper Sub-VI 3.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Caliper Sub-VI 3.vi"/>
+				<Item Name="IVA Store Straight Edge3 Results.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Store Straight Edge3 Results.vi"/>
+				<Item Name="Straight Edge Process.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Straight Edge Process.ctl"/>
+				<Item Name="Straight Edge Options.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Measure.llb/Straight Edge Options.ctl"/>
 			</Item>
-			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../bin/Aerotech.A3200.dll"/>
-			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../bin/Aerotech.A3200.LabVIEW.dll"/>
 			<Item Name="EnableMultiple.vi" Type="VI" URL="../Motion/EnableMultiple.vi"/>
 			<Item Name="EnableSingle.vi" Type="VI" URL="../Motion/EnableSingle.vi"/>
 			<Item Name="DisableSingle.vi" Type="VI" URL="../Motion/DisableSingle.vi"/>
@@ -356,7 +355,12 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="SubVI_2DFilter.vi" Type="VI" URL="../../ImageAnalysis/SubVI_2DFilter.vi"/>
+			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../../../../../aerotech/controller/5.xx.xxx/A3200/pc/labview/2010/bin/Aerotech.A3200.dll"/>
+			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../../../../../aerotech/controller/5.xx.xxx/A3200/pc/labview/2010/bin/Aerotech.A3200.LabVIEW.dll"/>
+			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../../../Desktop/BNL Stave Assembly/Bin/Aerotech.A3200.dll"/>
+			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../../../Desktop/BNL Stave Assembly/Bin/Aerotech.A3200.LabVIEW.dll"/>
+			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../Bin/Aerotech.A3200.LabVIEW.dll"/>
+			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../Bin/Aerotech.A3200.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="A3200 LabVIEW Operator Interface" Type="EXE">
