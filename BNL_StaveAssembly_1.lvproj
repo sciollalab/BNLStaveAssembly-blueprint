@@ -152,7 +152,11 @@
 			<Item Name="attempt-profileStaveCoreHeight.vi" Type="VI" URL="../Top Level/attempt-profileStaveCoreHeight.vi"/>
 			<Item Name="attempt-circleFitOnFly.vi" Type="VI" URL="../Top Level/attempt-circleFitOnFly.vi"/>
 		</Item>
+		<Item Name="practiceImageAnalysis.vi" Type="VI" URL="../practiceImageAnalysis.vi"/>
 		<Item Name="ExamineImageCalibration.vi" Type="VI" URL="../Utils/ExamineImageCalibration.vi"/>
+		<Item Name="DumpImageSet (SubVI).vi" Type="VI" URL="../SubVIs/DumpImageSet (SubVI).vi"/>
+		<Item Name="FindTopAndBottomEdges (SubVI).vi" Type="VI" URL="../SubVIs/FindTopAndBottomEdges (SubVI).vi"/>
+		<Item Name="GetCameraPOSinLab (SubVI).vi" Type="VI" URL="../SubVIs/GetCameraPOSinLab (SubVI).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -191,7 +195,7 @@
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
-				<Item Name="Imaq Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq Dispose"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
@@ -355,10 +359,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../../../../../aerotech/controller/5.xx.xxx/A3200/pc/labview/2010/bin/Aerotech.A3200.dll"/>
-			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../../../../../aerotech/controller/5.xx.xxx/A3200/pc/labview/2010/bin/Aerotech.A3200.LabVIEW.dll"/>
-			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../../../Desktop/BNL Stave Assembly/Bin/Aerotech.A3200.dll"/>
-			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../../../Desktop/BNL Stave Assembly/Bin/Aerotech.A3200.LabVIEW.dll"/>
 			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../Bin/Aerotech.A3200.LabVIEW.dll"/>
 			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../Bin/Aerotech.A3200.dll"/>
 		</Item>
