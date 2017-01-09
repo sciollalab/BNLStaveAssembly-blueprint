@@ -149,6 +149,7 @@
 					<Item Name="FindPOSCheckPercentDiff (SubVI).vi" Type="VI" URL="../SubVIs/FindPOSCheckPercentDiff (SubVI).vi"/>
 					<Item Name="AnalyzePatternMatches (SubVI).vi" Type="VI" URL="../SubVIs/AnalyzePatternMatches (SubVI).vi"/>
 				</Item>
+				<Item Name="ApplyCutAndMakeHistogram (SubVI).vi" Type="VI" URL="../SubVIs/ApplyCutAndMakeHistogram (SubVI).vi"/>
 				<Item Name="2DFilter (SubVI).vi" Type="VI" URL="../SubVIs/2DFilter (SubVI).vi"/>
 				<Item Name="FindTopAndBottomEdges (SubVI).vi" Type="VI" URL="../SubVIs/FindTopAndBottomEdges (SubVI).vi"/>
 				<Item Name="GetCameraPOSinLab (SubVI).vi" Type="VI" URL="../SubVIs/GetCameraPOSinLab (SubVI).vi"/>
