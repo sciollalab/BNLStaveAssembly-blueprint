@@ -149,11 +149,14 @@
 					<Item Name="FindPOSCheckPercentDiff (SubVI).vi" Type="VI" URL="../SubVIs/FindPOSCheckPercentDiff (SubVI).vi"/>
 					<Item Name="AnalyzePatternMatches (SubVI).vi" Type="VI" URL="../SubVIs/AnalyzePatternMatches (SubVI).vi"/>
 				</Item>
+				<Item Name="ApplyCutAndMakeHistogram (SubVI).vi" Type="VI" URL="../SubVIs/ApplyCutAndMakeHistogram (SubVI).vi"/>
 				<Item Name="2DFilter (SubVI).vi" Type="VI" URL="../SubVIs/2DFilter (SubVI).vi"/>
 				<Item Name="FindTopAndBottomEdges (SubVI).vi" Type="VI" URL="../SubVIs/FindTopAndBottomEdges (SubVI).vi"/>
 				<Item Name="GetCameraPOSinLab (SubVI).vi" Type="VI" URL="../SubVIs/GetCameraPOSinLab (SubVI).vi"/>
 				<Item Name="ChangeToStaveCoordinateFrame (SubVI).vi" Type="VI" URL="../SubVIs/ChangeToStaveCoordinateFrame (SubVI).vi"/>
 				<Item Name="Intensity-XY2rPhi (SubVI).vi" Type="VI" URL="../SubVIs/Intensity-XY2rPhi (SubVI).vi"/>
+				<Item Name="AverageOneCoord (SubVI).vi" Type="VI" URL="../SubVIs/AverageOneCoord (SubVI).vi"/>
+				<Item Name="AverageXYZ (SubVI) 1.vi" Type="VI" URL="../SubVIs/AverageXYZ (SubVI) 1.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Utils" Type="Folder">
@@ -284,6 +287,28 @@
 				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
 				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
 				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
+				<Item Name="2D Error Bar.xctl" Type="XControl" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Error Bar/2D Error Bar XCtrl/2D Error Bar.xctl"/>
+				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
+				<Item Name="2D Error Bar.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Error Bar/2D Error Bar/2D Error Bar.lvclass"/>
+				<Item Name="2D Plot.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Plot/2D Plot/2D Plot.lvclass"/>
+				<Item Name="LVAnnotationListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVAnnotationListTypeDef.ctl"/>
+				<Item Name="LVOffsetAndMultiplierTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVOffsetAndMultiplierTypeDef.ctl"/>
+				<Item Name="LVCursorListTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVCursorListTypeDef.ctl"/>
+				<Item Name="2DMathPlot Ctrl Act Queue.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Plot/Action String/2DMathPlot Ctrl Act Queue.ctl"/>
+				<Item Name="2DMathPlot Ctrl Act Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Plot/Action String/2DMathPlot Ctrl Act Cluster.ctl"/>
+				<Item Name="2DMathPlot State Class.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Plot/Action String/2DMathPlot State Class.ctl"/>
+				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Multiple Lines.vi"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="LVRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRangeTypeDef.ctl"/>
+				<Item Name="2DMathPlot Action String.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Plot/Action String/2DMathPlot Action String.ctl"/>
+				<Item Name="NI_Math Plot Private Lib.lvlib" Type="Library" URL="/&lt;vilib&gt;/Math Plots/Plot Private Lib/NI_Math Plot Private Lib.lvlib"/>
+				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
+				<Item Name="2D Plot Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Plot/2D Plot Datatype/2D Plot Datatype.lvclass"/>
+				<Item Name="2DMathPlot Action String.vi" Type="VI" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Plot/Action String/2DMathPlot Action String.vi"/>
+				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
+				<Item Name="2D Error Bar Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Error Bar/2D Error Bar Datatype/2D Error Bar Datatype.lvclass"/>
 			</Item>
 			<Item Name="EnableMultiple.vi" Type="VI" URL="../Motion/EnableMultiple.vi"/>
 			<Item Name="EnableSingle.vi" Type="VI" URL="../Motion/EnableSingle.vi"/>
