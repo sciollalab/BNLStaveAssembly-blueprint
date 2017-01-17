@@ -149,15 +149,22 @@
 					<Item Name="FindPOSCheckPercentDiff (SubVI).vi" Type="VI" URL="../SubVIs/FindPOSCheckPercentDiff (SubVI).vi"/>
 					<Item Name="AnalyzePatternMatches (SubVI).vi" Type="VI" URL="../SubVIs/AnalyzePatternMatches (SubVI).vi"/>
 				</Item>
+				<Item Name="Fitting Routines" Type="Folder">
+					<Item Name="ConfigureGausFitGuess (SubVI).vi" Type="VI" URL="../SubVIs/ConfigureGausFitGuess (SubVI).vi"/>
+					<Item Name="FitGaussian (SubVI).vi" Type="VI" URL="../SubVIs/FitGaussian (SubVI).vi"/>
+					<Item Name="FitLinear (SubVI).vi" Type="VI" URL="../SubVIs/FitLinear (SubVI).vi"/>
+					<Item Name="FitParabola (SubVI).vi" Type="VI" URL="../SubVIs/FitParabola (SubVI).vi"/>
+				</Item>
 				<Item Name="ApplyCutAndMakeHistogram (SubVI).vi" Type="VI" URL="../SubVIs/ApplyCutAndMakeHistogram (SubVI).vi"/>
 				<Item Name="2DFilter (SubVI).vi" Type="VI" URL="../SubVIs/2DFilter (SubVI).vi"/>
 				<Item Name="FindTopAndBottomEdges (SubVI).vi" Type="VI" URL="../SubVIs/FindTopAndBottomEdges (SubVI).vi"/>
 				<Item Name="GetCameraPOSinLab (SubVI).vi" Type="VI" URL="../SubVIs/GetCameraPOSinLab (SubVI).vi"/>
 				<Item Name="ChangeToStaveCoordinateFrame (SubVI).vi" Type="VI" URL="../SubVIs/ChangeToStaveCoordinateFrame (SubVI).vi"/>
 				<Item Name="Intensity-XY2rPhi (SubVI).vi" Type="VI" URL="../SubVIs/Intensity-XY2rPhi (SubVI).vi"/>
-				<Item Name="AverageOneCoord (SubVI).vi" Type="VI" URL="../SubVIs/AverageOneCoord (SubVI).vi"/>
-				<Item Name="AverageXYZ (SubVI) 1.vi" Type="VI" URL="../SubVIs/AverageXYZ (SubVI) 1.vi"/>
+				<Item Name="NormalizedIntensityVsRadius.vi" Type="VI" URL="../SubVIs/NormalizedIntensityVsRadius.vi"/>
 			</Item>
+			<Item Name="Splitting Array(SubVI).vi" Type="VI" URL="../SubVIs/Splitting Array(SubVI).vi"/>
+			<Item Name="AverageOneCoord (SubVI).vi" Type="VI" URL="../SubVIs/AverageOneCoord (SubVI).vi"/>
 		</Item>
 		<Item Name="Utils" Type="Folder">
 			<Item Name="analyzeToolingPins.vi" Type="VI" URL="../Utils/analyzeToolingPins.vi"/>
@@ -412,6 +419,7 @@
 			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../Bin/Aerotech.A3200.LabVIEW.dll"/>
 			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../Bin/Aerotech.A3200.dll"/>
 			<Item Name="Bounding Box to Rectangle ROI (LV 2013 SP1) (SubVI).vi" Type="VI" URL="../SubVIs/Bounding Box to Rectangle ROI (LV 2013 SP1) (SubVI).vi"/>
+			<Item Name="KillPixelsOutsideCircularROI (SubVI).vi" Type="VI" URL="../SubVIs/KillPixelsOutsideCircularROI (SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="A3200 LabVIEW Operator Interface" Type="EXE">
