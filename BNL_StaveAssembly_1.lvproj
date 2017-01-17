@@ -171,6 +171,7 @@
 			<Item Name="attempt-circleFitOnFly.vi" Type="VI" URL="../Top Level/attempt-circleFitOnFly.vi"/>
 		</Item>
 		<Item Name="Analysis" Type="Folder">
+			<Item Name="practiceImageAnalysis20vi.vi" Type="VI" URL="../Analysis/practiceImageAnalysis20vi.vi"/>
 			<Item Name="ExamineImageCalibration.vi" Type="VI" URL="../Utils/ExamineImageCalibration.vi"/>
 			<Item Name="practiceImageAnalysis.vi" Type="VI" URL="../Analysis/practiceImageAnalysis.vi"/>
 			<Item Name="practiceImageAnalysis - HH.vi" Type="VI" URL="../Analysis/practiceImageAnalysis - HH.vi"/>
@@ -411,6 +412,8 @@
 			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../Bin/Aerotech.A3200.LabVIEW.dll"/>
 			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../Bin/Aerotech.A3200.dll"/>
 			<Item Name="Bounding Box to Rectangle ROI (LV 2013 SP1) (SubVI).vi" Type="VI" URL="../SubVIs/Bounding Box to Rectangle ROI (LV 2013 SP1) (SubVI).vi"/>
+			<Item Name="CreatePointsOnLine (SubVI).vi" Type="VI" URL="../SubVIs/CreatePointsOnLine (SubVI).vi"/>
+			<Item Name="XY error bars.vi" Type="VI" URL="/E/BNL Stave Assembly-12-16-2016/SubVIs/XY error bars.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="A3200 LabVIEW Operator Interface" Type="EXE">
