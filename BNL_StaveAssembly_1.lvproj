@@ -137,6 +137,7 @@
 			</Item>
 			<Item Name="ImageControls" Type="Folder">
 				<Item Name="Image Axes" Type="Folder">
+					<Item Name="UserSliderCursor (SubVI).vi" Type="VI" URL="../SubVIs/UserSliderCursor (SubVI).vi"/>
 					<Item Name="DrawAxesOnImage (SubVI).vi" Type="VI" URL="../SubVIs/DrawAxesOnImage (SubVI).vi"/>
 					<Item Name="GetImageCentre (SubVI).vi" Type="VI" URL="../SubVIs/GetImageCentre (SubVI).vi"/>
 					<Item Name="DrawImageCentre (SubVI).vi" Type="VI" URL="../SubVIs/DrawImageCentre (SubVI).vi"/>
@@ -221,7 +222,7 @@
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
-				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="Imaq Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/Imaq Dispose"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
