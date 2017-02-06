@@ -421,6 +421,7 @@
 			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../Bin/Aerotech.A3200.dll"/>
 			<Item Name="Bounding Box to Rectangle ROI (LV 2013 SP1) (SubVI).vi" Type="VI" URL="../SubVIs/Bounding Box to Rectangle ROI (LV 2013 SP1) (SubVI).vi"/>
 			<Item Name="KillPixelsOutsideCircularROI (SubVI).vi" Type="VI" URL="../SubVIs/KillPixelsOutsideCircularROI (SubVI).vi"/>
+			<Item Name="GenerateListOfCoordintes (SubVI).vi" Type="VI" URL="../SubVIs/GenerateListOfCoordintes (SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="A3200 LabVIEW Operator Interface" Type="EXE">
