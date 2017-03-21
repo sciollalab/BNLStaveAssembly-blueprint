@@ -174,7 +174,7 @@
 			<Item Name="rwFile - ConvertCoords.vi" Type="VI" URL="../Utils/rwFile - ConvertCoords.vi"/>
 		</Item>
 		<Item Name="Top Level" Type="Folder">
-			<Item Name="ModifyCamGainOnFly.vi" Type="VI" URL="../../../Desktop/ModifyCamGainOnFly.vi"/>
+			<Item Name="ModifyCamGainOnFly.vi" Type="VI" URL="../Top Level/ModifyCamGainOnFly.vi"/>
 			<Item Name="ContinousStageAndCamera.vi" Type="VI" URL="../Top Level/ContinousStageAndCamera.vi"/>
 			<Item Name="ScanCameraFocus.vi" Type="VI" URL="../Top Level/ScanCameraFocus.vi"/>
 			<Item Name="visuallyInspectPositionListResults.vi" Type="VI" URL="../Top Level/visuallyInspectPositionListResults.vi"/>
