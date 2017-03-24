@@ -186,6 +186,8 @@
 			<Item Name="practiceImageAnalysis.vi" Type="VI" URL="../Analysis/practiceImageAnalysis.vi"/>
 			<Item Name="practiceImageAnalysis - HH.vi" Type="VI" URL="../Analysis/practiceImageAnalysis - HH.vi"/>
 		</Item>
+		<Item Name="SaveOneImage.vi" Type="VI" URL="../SubVIs/SaveOneImage.vi"/>
+		<Item Name="CameraAndStageEnableTests.vi" Type="VI" URL="../Top Level/CameraAndStageEnableTests.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -424,6 +426,7 @@
 			<Item Name="Bounding Box to Rectangle ROI (LV 2013 SP1) (SubVI).vi" Type="VI" URL="../SubVIs/Bounding Box to Rectangle ROI (LV 2013 SP1) (SubVI).vi"/>
 			<Item Name="KillPixelsOutsideCircularROI (SubVI).vi" Type="VI" URL="../SubVIs/KillPixelsOutsideCircularROI (SubVI).vi"/>
 			<Item Name="0_SetupCameraAttributes (SubVI).vi" Type="VI" URL="../Utils/0_SetupCameraAttributes (SubVI).vi"/>
+			<Item Name="AlignCameraFrame (SubVI).vi" Type="VI" URL="../SubVIs/AlignCameraFrame (SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="A3200 LabVIEW Operator Interface" Type="EXE">
