@@ -113,78 +113,29 @@
 			<Item Name="HH_3axis_SimpleMotion.vi" Type="VI" URL="../Examples/HH_3axis_SimpleMotion.vi"/>
 			<Item Name="HH_Go2XYZ.vi" Type="VI" URL="../Examples/HH_Go2XYZ.vi"/>
 		</Item>
-		<Item Name="SubVIs" Type="Folder">
-			<Item Name="BatchImageActions" Type="Folder">
-				<Item Name="DumpImageSet (SubVI).vi" Type="VI" URL="../SubVIs/DumpImageSet (SubVI).vi"/>
-				<Item Name="FetchImageSet (SubVI).vi" Type="VI" URL="../SubVIs/FetchImageSet (SubVI).vi"/>
-				<Item Name="CalibrateImageArray (SubVI).vi" Type="VI" URL="../SubVIs/CalibrateImageArray (SubVI).vi"/>
-			</Item>
-			<Item Name="Stage Controls" Type="Folder">
-				<Item Name="ApproveCoordinates" Type="Folder">
-					<Item Name="ApproveAllCoords (SubVI).vi" Type="VI" URL="../SubVIs/ApproveAllCoords (SubVI).vi"/>
-					<Item Name="ApproveXCoord (SubVI).vi" Type="VI" URL="../SubVIs/ApproveXCoord (SubVI).vi"/>
-					<Item Name="ApproveYCoord (SubVI).vi" Type="VI" URL="../SubVIs/ApproveYCoord (SubVI).vi"/>
-					<Item Name="ApproveZCoord (SubVI).vi" Type="VI" URL="../SubVIs/ApproveZCoord (SubVI).vi"/>
-				</Item>
-				<Item Name="Go2XYZ (SubVI).vi" Type="VI" URL="../SubVIs/Go2XYZ (SubVI).vi"/>
-				<Item Name="HomeAllAxes (SubVI).vi" Type="VI" URL="../SubVIs/HomeAllAxes (SubVI).vi"/>
-				<Item Name="GetCurrentXYZPosition (SubVI).vi" Type="VI" URL="../SubVIs/GetCurrentXYZPosition (SubVI).vi"/>
-				<Item Name="GenerateListOfCoordintes (SubVI).vi" Type="VI" URL="../SubVIs/GenerateListOfCoordintes (SubVI).vi"/>
-			</Item>
-			<Item Name="FileAccess" Type="Folder">
-				<Item Name="File2Array (SubVI).vi" Type="VI" URL="../SubVIs/File2Array (SubVI).vi"/>
-				<Item Name="UpdateFileName (SubVI).vi" Type="VI" URL="../SubVIs/UpdateFileName (SubVI).vi"/>
-				<Item Name="SaveImagesFromArray (SubVI).vi" Type="VI" URL="../SubVIs/SaveImagesFromArray (SubVI).vi"/>
-			</Item>
-			<Item Name="ImageControls" Type="Folder">
-				<Item Name="Image Axes" Type="Folder">
-					<Item Name="UserSliderCursor (SubVI).vi" Type="VI" URL="../SubVIs/UserSliderCursor (SubVI).vi"/>
-					<Item Name="DrawAxesOnImage (SubVI).vi" Type="VI" URL="../SubVIs/DrawAxesOnImage (SubVI).vi"/>
-					<Item Name="GetImageCentre (SubVI).vi" Type="VI" URL="../SubVIs/GetImageCentre (SubVI).vi"/>
-					<Item Name="DrawImageCentre (SubVI).vi" Type="VI" URL="../SubVIs/DrawImageCentre (SubVI).vi"/>
-				</Item>
-				<Item Name="Pattern Analysis" Type="Folder">
-					<Item Name="PatternMatchToROI (SubVI).vi" Type="VI" URL="../SubVIs/PatternMatchToROI (SubVI).vi"/>
-					<Item Name="MatchPos2RECTwAngle (SubVI).vi" Type="VI" URL="../SubVIs/MatchPos2RECTwAngle (SubVI).vi"/>
-					<Item Name="CentreAnnulusROIonMatchPOS (SubVI).vi" Type="VI" URL="../SubVIs/CentreAnnulusROIonMatchPOS (SubVI).vi"/>
-					<Item Name="MatchPos2RECT (SubVI).vi" Type="VI" URL="../SubVIs/MatchPos2RECT (SubVI).vi"/>
-					<Item Name="FindPOSCheckPercentDiff (SubVI).vi" Type="VI" URL="../SubVIs/FindPOSCheckPercentDiff (SubVI).vi"/>
-					<Item Name="AnalyzePatternMatches (SubVI).vi" Type="VI" URL="../SubVIs/AnalyzePatternMatches (SubVI).vi"/>
-				</Item>
-				<Item Name="Fitting Routines" Type="Folder">
-					<Item Name="ConfigureGausFitGuess (SubVI).vi" Type="VI" URL="../SubVIs/ConfigureGausFitGuess (SubVI).vi"/>
-					<Item Name="FitGaussian (SubVI).vi" Type="VI" URL="../SubVIs/FitGaussian (SubVI).vi"/>
-					<Item Name="FitLinear (SubVI).vi" Type="VI" URL="../SubVIs/FitLinear (SubVI).vi"/>
-					<Item Name="FitParabola (SubVI).vi" Type="VI" URL="../SubVIs/FitParabola (SubVI).vi"/>
-				</Item>
-				<Item Name="ApplyCutAndMakeHistogram (SubVI).vi" Type="VI" URL="../SubVIs/ApplyCutAndMakeHistogram (SubVI).vi"/>
-				<Item Name="2DFilter (SubVI).vi" Type="VI" URL="../SubVIs/2DFilter (SubVI).vi"/>
-				<Item Name="FindTopAndBottomEdges (SubVI).vi" Type="VI" URL="../SubVIs/FindTopAndBottomEdges (SubVI).vi"/>
-				<Item Name="GetCameraPOSinLab (SubVI).vi" Type="VI" URL="../SubVIs/GetCameraPOSinLab (SubVI).vi"/>
-				<Item Name="ChangeToStaveCoordinateFrame (SubVI).vi" Type="VI" URL="../SubVIs/ChangeToStaveCoordinateFrame (SubVI).vi"/>
-				<Item Name="Intensity-XY2rPhi (SubVI).vi" Type="VI" URL="../SubVIs/Intensity-XY2rPhi (SubVI).vi"/>
-				<Item Name="NormalizedIntensityVsRadius.vi" Type="VI" URL="../SubVIs/NormalizedIntensityVsRadius.vi"/>
-			</Item>
-			<Item Name="Splitting Array(SubVI).vi" Type="VI" URL="../SubVIs/Splitting Array(SubVI).vi"/>
-			<Item Name="AverageOneCoord (SubVI).vi" Type="VI" URL="../SubVIs/AverageOneCoord (SubVI).vi"/>
+		<Item Name="SubVIs" Type="Folder" URL="../SubVIs">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Utils" Type="Folder">
 			<Item Name="analyzeToolingPins.vi" Type="VI" URL="../Utils/analyzeToolingPins.vi"/>
 			<Item Name="rwFile.vi" Type="VI" URL="../Utils/rwFile.vi"/>
 			<Item Name="rwFile - ConvertCoords.vi" Type="VI" URL="../Utils/rwFile - ConvertCoords.vi"/>
 		</Item>
-		<Item Name="Top Level" Type="Folder">
-			<Item Name="ModifyCamGainOnFly.vi" Type="VI" URL="../../../Desktop/ModifyCamGainOnFly.vi"/>
-			<Item Name="ContinousStageAndCamera.vi" Type="VI" URL="../Top Level/ContinousStageAndCamera.vi"/>
-			<Item Name="ScanCameraFocus.vi" Type="VI" URL="../Top Level/ScanCameraFocus.vi"/>
-			<Item Name="visuallyInspectPositionListResults.vi" Type="VI" URL="../Top Level/visuallyInspectPositionListResults.vi"/>
-			<Item Name="attempt-profileStaveCoreHeight.vi" Type="VI" URL="../Top Level/attempt-profileStaveCoreHeight.vi"/>
-			<Item Name="attempt-circleFitOnFly.vi" Type="VI" URL="../Top Level/attempt-circleFitOnFly.vi"/>
+		<Item Name="Top Level" Type="Folder" URL="../Top Level">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Analysis" Type="Folder">
 			<Item Name="ExamineImageCalibration.vi" Type="VI" URL="../Utils/ExamineImageCalibration.vi"/>
 			<Item Name="practiceImageAnalysis.vi" Type="VI" URL="../Analysis/practiceImageAnalysis.vi"/>
 			<Item Name="practiceImageAnalysis - HH.vi" Type="VI" URL="../Analysis/practiceImageAnalysis - HH.vi"/>
+		</Item>
+		<Item Name="Stage Controls" Type="Folder">
+			<Item Name="ApproveCoordinates" Type="Folder"/>
+		</Item>
+		<Item Name="ImageControls" Type="Folder">
+			<Item Name="Image Axes" Type="Folder"/>
+			<Item Name="Pattern Analysis" Type="Folder"/>
+			<Item Name="Fitting Routines" Type="Folder"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -421,8 +372,7 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../Bin/Aerotech.A3200.LabVIEW.dll"/>
 			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../Bin/Aerotech.A3200.dll"/>
-			<Item Name="Bounding Box to Rectangle ROI (LV 2013 SP1) (SubVI).vi" Type="VI" URL="../SubVIs/Bounding Box to Rectangle ROI (LV 2013 SP1) (SubVI).vi"/>
-			<Item Name="KillPixelsOutsideCircularROI (SubVI).vi" Type="VI" URL="../SubVIs/KillPixelsOutsideCircularROI (SubVI).vi"/>
+			<Item Name="0_SetupCameraAttributes (SubVI).vi" Type="VI" URL="../Utils/0_SetupCameraAttributes (SubVI).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="A3200 LabVIEW Operator Interface" Type="EXE">
