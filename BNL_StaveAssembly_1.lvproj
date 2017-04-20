@@ -270,7 +270,6 @@
 				<Item Name="2DMathPlot Action String.vi" Type="VI" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Plot/Action String/2DMathPlot Action String.vi"/>
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="2D Error Bar Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Error Bar/2D Error Bar Datatype/2D Error Bar Datatype.lvclass"/>
-				<Item Name="IVA Store Circular Edge2 Results.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Store Circular Edge2 Results.vi"/>
 			</Item>
 			<Item Name="EnableSingle.vi" Type="VI" URL="../Motion/EnableSingle.vi"/>
 			<Item Name="DisableSingle.vi" Type="VI" URL="../Motion/DisableSingle.vi"/>
