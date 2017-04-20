@@ -120,6 +120,8 @@
 			<Item Name="analyzeToolingPins.vi" Type="VI" URL="../Utils/analyzeToolingPins.vi"/>
 			<Item Name="rwFile.vi" Type="VI" URL="../Utils/rwFile.vi"/>
 			<Item Name="rwFile - ConvertCoords.vi" Type="VI" URL="../Utils/rwFile - ConvertCoords.vi"/>
+			<Item Name="LightSwitch (SubVI).vi" Type="VI" URL="../Utils/LightSwitch (SubVI).vi"/>
+			<Item Name="ConfigureLights (SubVI).vi" Type="VI" URL="../Utils/ConfigureLights (SubVI).vi"/>
 		</Item>
 		<Item Name="Top Level" Type="Folder" URL="../Top Level">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -213,8 +215,6 @@
 				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
 				<Item Name="IMAQ Coordinate System" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Coordinate System"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="Calculate Frames per Second.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Calculate Frames per Second.vi"/>
-				<Item Name="IVA Store Circular Edge2 Results.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Vision Assistant Utils.llb/IVA Store Circular Edge2 Results.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="IMAQ ImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ImageToArray"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
@@ -271,12 +271,10 @@
 				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="2D Error Bar Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/2D Math Plots/2D Error Bar/2D Error Bar Datatype/2D Error Bar Datatype.lvclass"/>
 			</Item>
-			<Item Name="EnableMultiple.vi" Type="VI" URL="../Motion/EnableMultiple.vi"/>
 			<Item Name="EnableSingle.vi" Type="VI" URL="../Motion/EnableSingle.vi"/>
 			<Item Name="DisableSingle.vi" Type="VI" URL="../Motion/DisableSingle.vi"/>
 			<Item Name="DisableMultiple.vi" Type="VI" URL="../Motion/DisableMultiple.vi"/>
 			<Item Name="HomeSingle.vi" Type="VI" URL="../Motion/HomeSingle.vi"/>
-			<Item Name="HomeMultiple.vi" Type="VI" URL="../Motion/HomeMultiple.vi"/>
 			<Item Name="AbortSingle.vi" Type="VI" URL="../Motion/AbortSingle.vi"/>
 			<Item Name="AbortMultiple.vi" Type="VI" URL="../Motion/AbortMultiple.vi"/>
 			<Item Name="FaultAckSingle.vi" Type="VI" URL="../Motion/FaultAckSingle.vi"/>
@@ -286,11 +284,9 @@
 			<Item Name="MoveIncSingle.vi" Type="VI" URL="../Motion/MoveIncSingle.vi"/>
 			<Item Name="MoveIncMultiple.vi" Type="VI" URL="../Motion/MoveIncMultiple.vi"/>
 			<Item Name="MoveAbsSingle.vi" Type="VI" URL="../Motion/MoveAbsSingle.vi"/>
-			<Item Name="MoveAbsMultiple.vi" Type="VI" URL="../Motion/MoveAbsMultiple.vi"/>
 			<Item Name="CircularRadius.vi" Type="VI" URL="../Motion/CircularRadius.vi"/>
 			<Item Name="CircularCenter.vi" Type="VI" URL="../Motion/CircularCenter.vi"/>
 			<Item Name="WaitSingle.vi" Type="VI" URL="../Motion/WaitSingle.vi"/>
-			<Item Name="WaitMultiple.vi" Type="VI" URL="../Motion/WaitMultiple.vi"/>
 			<Item Name="RampRateCoordinated.vi" Type="VI" URL="../Motion/RampRateCoordinated.vi"/>
 			<Item Name="RampRateMultiple.vi" Type="VI" URL="../Motion/RampRateMultiple.vi"/>
 			<Item Name="RampRateSingle.vi" Type="VI" URL="../Motion/RampRateSingle.vi"/>
@@ -373,6 +369,10 @@
 			<Item Name="Aerotech.A3200.LabVIEW.dll" Type="Document" URL="../Bin/Aerotech.A3200.LabVIEW.dll"/>
 			<Item Name="Aerotech.A3200.dll" Type="Document" URL="../Bin/Aerotech.A3200.dll"/>
 			<Item Name="0_SetupCameraAttributes (SubVI).vi" Type="VI" URL="../Utils/0_SetupCameraAttributes (SubVI).vi"/>
+			<Item Name="EnableMultiple.vi" Type="VI" URL="../Motion/EnableMultiple.vi"/>
+			<Item Name="HomeMultiple.vi" Type="VI" URL="../Motion/HomeMultiple.vi"/>
+			<Item Name="MoveAbsMultiple.vi" Type="VI" URL="../Motion/MoveAbsMultiple.vi"/>
+			<Item Name="WaitMultiple.vi" Type="VI" URL="../Motion/WaitMultiple.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="A3200 LabVIEW Operator Interface" Type="EXE">
